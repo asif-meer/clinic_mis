@@ -22,6 +22,7 @@ gem 'jquery-rails'
 
 group :test, :development do
   gem 'rspec-rails', '~>2.5'
+  gem 'devise', '~> 1.4.3'
 end
 
 # Use unicorn as the web server

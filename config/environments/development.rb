@@ -9,7 +9,7 @@ ClinicMis::Application.configure do
   # Log error messages when you accidentally call methods on nil.
   config.whiny_nils = true
   # mailer code from devise module 
-  config.action_mailer.default_url_options = { :host => 'localhost:4000' }
+  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 
 
   # Show full error reports and disable caching

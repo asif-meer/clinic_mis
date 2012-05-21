@@ -15,7 +15,7 @@ ClinicMis::Application.configure do
   config.whiny_nils = true
 
   # mailer code from devise module 
-  config.action_mailer.default_url_options = { :host => 'localhost:4000' }
+  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 
 
   # Show full error reports and disable caching
